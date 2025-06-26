@@ -1,0 +1,24 @@
+!SESSION 2025-06-26 19:32:37.298 -----------------------------------------------
+eclipse.buildId=Version 1.18.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -data /home/sunbeam/Desktop/GIT/My_Git/RTOS_assignment
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-06-26 19:32:42.000
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-06-26 19:32:42.001
+!MESSAGE Log4j2 initialized with config file /home/sunbeam/Desktop/GIT/My_Git/RTOS_assignment/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-06-26 19:32:45.015
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-06-26 19:33:44.983
+!MESSAGE Indexed 'Q1' (3 sources, 53 headers) in 1.13 sec: 1,954 declarations; 2,863 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-06-26 19:34:46.260
+!MESSAGE Indexed 'RTOSbasic' (14 sources, 91 headers) in 1.6 sec: 5,845 declarations; 14,494 references; 0 unresolved inclusions; 113 syntax errors; 3 unresolved names (0.015%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-06-26 19:35:44.595
+!MESSAGE Indexed 'Q1' (19 sources, 100 headers) in 1.36 sec: 6,841 declarations; 15,652 references; 16 unresolved inclusions; 148 syntax errors; 783 unresolved names (3.4%)
