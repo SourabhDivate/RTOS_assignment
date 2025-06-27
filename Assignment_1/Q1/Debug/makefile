@@ -62,8 +62,8 @@ all: main-build
 main-build: Q1.elf secondary-outputs
 
 # Tool invocations
-Q1.elf Q1.map: $(OBJS) $(USER_OBJS) /home/sunbeam/Desktop/GIT/My_Git/RTOS_assignment/Q1/STM32F407VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "Q1.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/sunbeam/Desktop/GIT/My_Git/RTOS_assignment/Q1/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Q1.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Q1.elf Q1.map: $(OBJS) $(USER_OBJS) /home/sunbeam/Desktop/GIT/My_Git/RTOS_assignment/Assignment_1/Q1/STM32F407VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "Q1.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/sunbeam/Desktop/GIT/My_Git/RTOS_assignment/Assignment_1/Q1/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Q1.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

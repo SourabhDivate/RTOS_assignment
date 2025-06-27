@@ -22,3 +22,33 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64 -data /home/sunbeam/Desk
 
 !ENTRY org.eclipse.cdt.core 1 0 2025-06-26 19:35:44.595
 !MESSAGE Indexed 'Q1' (19 sources, 100 headers) in 1.36 sec: 6,841 declarations; 15,652 references; 16 unresolved inclusions; 148 syntax errors; 783 unresolved names (3.4%)
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-06-26 22:06:42.372
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-06-26 22:07:24.296
+!MESSAGE Indexed 'Q1' (16 sources, 90 headers) in 0.767 sec: 5,722 declarations; 14,478 references; 0 unresolved inclusions; 113 syntax errors; 8 unresolved names (0.04%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-06-26 22:08:36.674
+!MESSAGE Indexed 'Q2' (19 sources, 99 headers) in 0.838 sec: 7,228 declarations; 17,221 references; 0 unresolved inclusions; 114 syntax errors; 5 unresolved names (0.02%)
+!SESSION 2025-06-27 09:14:56.305 -----------------------------------------------
+eclipse.buildId=Version 1.18.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-06-27 09:15:00.886
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-06-27 09:15:00.886
+!MESSAGE Log4j2 initialized with config file /home/sunbeam/Desktop/GIT/My_Git/RTOS_assignment/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-06-27 09:15:06.152
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-06-27 09:16:28.310
+!MESSAGE Indexed 'Q3' (19 sources, 95 headers) in 2.55 sec: 6,933 declarations; 16,849 references; 11 unresolved inclusions; 113 syntax errors; 21 unresolved names (0.088%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-06-27 09:18:48.060
+!MESSAGE Indexed 'uart_poll' (6 sources, 68 headers) in 0.527 sec: 3,639 declarations; 5,918 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.021%)
